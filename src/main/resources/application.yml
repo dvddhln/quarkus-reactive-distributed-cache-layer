@@ -1,0 +1,18 @@
+quarkus:
+  infinispan-client:
+    auth-username: "Titus Bramble"
+    auth-password: "Shambles"
+    auth-realm: default
+    auth-server-name: infinispan
+    sasl-mechanism: DIGEST-MD5
+cache:
+  <infinispan>
+    <cache-container>
+      <replicated-cache name="<name-override>">
+        <encoding>
+          <key media-type="application/x-java-object"/>
+          <value media-type="application/x-java-object"/>
+        </encoding>
+      </replicated-cache>
+    </cache-container>
+  </infinispan>
