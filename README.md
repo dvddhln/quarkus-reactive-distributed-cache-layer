@@ -5,7 +5,7 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 This project demonstrates a way to use custom interceptors as a means of handling with
 distributed caches as a cache layer in the application.
 
-[Distributed Cache Layering with Infinispan and Quarkus](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+[Distributed Cache Layering with Infinispan and Quarkus](https://dvddhln.medium.com/distributed-cache-layering-with-infinispan-and-quarkus-d8df4188efd4)
 
 
 ## Running the application in dev mode
